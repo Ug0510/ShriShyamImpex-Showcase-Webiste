@@ -1,0 +1,24 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+/* -----------------
+Css for Header
+----------------- */
+#header{
+	position: sticky;
+	top:0;
+	left:0;
+	width: 100%;
+	z-index: 99;
+	/* border-bottom: 1px solid rgba(0,0,0,0.1); */
+	border-bottom: 1px solid var(--cnvs-header-border-color);
+}
+#logo>img{
+	max-width: 10vw;
+	margin-left: 0.1px;
+	margin-top: 10px;
+}

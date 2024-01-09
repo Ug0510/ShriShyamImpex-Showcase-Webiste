@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<meta name="author" content="SemiColonWeb">
+	<meta name="description" content="Get Canvas to build powerful websites easily with the Highly Customizable &amp; Best Selling Bootstrap Template, today.">
+
+	<!-- Font Imports -->
+	<link rel="stylesheet" href="https://use.typekit.net/aay8rzy.css">
+
+	<!-- Core Style -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Font Icons -->
+	<link rel="stylesheet" href="css/font-icons.css">
+
+	<!-- Plugins/Components CSS -->
+	<link rel="stylesheet" href="css/swiper.css">
+	<link rel="stylesheet" href="css/components/ion.rangeslider.css">
+
+	<!-- Niche Demos -->
+	<link rel="stylesheet" href="demos/homedecor/homedecor.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Document Title
+	============================================= -->
+	<title>Products - Shri Shyam Impex</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper">
+
+		
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="header-size-sm" >
+			<div class="container-fluid">
+				<div class="header-row justify-content-sm-between" >
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo"  class="mx-auto col-2 col-lg-8" >
+						<img src="./logo/logo.png" alt="Logo of shri shyam impex" >
+						<!-- <a class="color fst-italic fs-3" href="#" style="background-color: red;">Shri Shyam Impex</a> -->
+					</div>
+					<!-- #logo end -->
+
+					
+
+					<nav class="primary-menu top-primary-menu col-4 mobile-menu-off-canvas" id="main-navbar" >
+
+						<ul class="menu-container justify-content-between">
+							<li class="menu-item"><a class="menu-link" href="index.html"><div>Home</div></a></li>
+							<li class="menu-item"><a class="menu-link" href="about.html"><div>About</div></a></li>
+							<li class="menu-item current"><a class="menu-link" href="shop.html"><div>Products</div></a></li>
+							<li class="menu-item "><a class="menu-link" href="contact.html"><div>Contact</div></a></li>
+						</ul>
+
+					</nav><!-- #primary-menu end -->
+
+					<!-- hamburger button -->
+					<div class="primary-menu-trigger" class="col-8" data-target=".top-primary-menu">
+						<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
+						<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
+					</button>
+					</div>
+				</div>
+			</div>
+		</header><!-- #header end -->
+
+		<!-- Page Title
+		============================================= -->
+		<section class="page-title page-title-parallax parallax py-lg-6">
+			<img src="demos/homedecor/images/shop-page/page-title.jpg" class="parallax-bg">
+			<div class="container">
+				<div class="page-title-row py-5">
+
+					<div class="page-title-content mw-xs">
+						<h1>Products</h1>
+						<p class="color text-larger mt-4 mb-0">Dynamic ways to display under-the-fold Media Uniquely aggregate cross-media expertise.</p>
+					</div>
+
+				</div>
+			</div>
+		</section><!-- .page-title end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap pb-0">
+
+				<div class="container">
+
+					<a href="login.html"><img src="demos/homedecor/images/banner.jpg" alt=".." class="mb-3 mb-md-5 mb-xl-6 border border-color border-width-2"></a>
+
+					<div class="row mb-3 mb-md-5 justify-content-md-between">
+
+						<div class="col-md-3 order-2 order-md-1">
+
+							<button type="button" class="button-filter button button-border border-color m-0 color h-bg-color h-text-light w-100">
+								<span>Show Filter <i class="bi-arrow-down me-0 ms-2"></i> </span>
+								<span><i class="bi-arrow-up"></i> Hide Filter</span>
+							</button>
+
+						</div>
+
+						<div class="col-12 col-md-auto order-1 order-md-2 mb-2 mb-md-0">
+							<div id="shop-filter-sorting" class="dropdown border-0">
+								<button type="button" id="shop-filter-btn" class="button button-border border-color m-0 color h-bg-color h-text-light dropdown-toggle px-5 w-100 text-center" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="true" data-bs-offset="0, -1">
+									Sorting
+								</button>
+
+								<ul class="shop-sorting dropdown-menu dropdown-menu-end shadow-sm border-0 w-100 py-0 rounded-0" aria-labelledby="shop-filter-btn">
+									<li><a href="#" class="dropdown-item" data-sort-by="name_az"><span>A - Z Alphabetically</span></a></li>
+									<li><a href="#" class="dropdown-item" data-sort-by="name_za"><span>Z - A Alphabetically</span></a></li>
+								</ul>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-md-3 homedecor-filter sticky-sidebar-wrap">
+							
+							<hr>
+							<ul class="pt-4 list-unstyled position-relative ist-unstyled items-nav shop-filter custom-filter font-body" data-container="#shop" data-active-class="active-filter">
+								<li class="widget-filter-reset active-filter"><a href="#" class="text-danger" data-filter="*">Clear</a></li>
+								<li class="mb-1 d-flex justify-content-between align-items-center"><a href="#" data-filter=".sf-bottle">Bottle</a><div class="shop-filter-count"></div></li>
+								<li class="mb-1 d-flex justify-content-between align-items-center"><a href="#" data-filter=".sf-firepit">Firepit</a><div class="shop-filter-count"></div></li>
+								<li class="mb-1 d-flex justify-content-between align-items-center"><a href="#" data-filter=".sf-jutebasket">Jute Basket</a><div class="shop-filter-count"></div></li>
+								<li class="mb-1 d-flex justify-content-between align-items-center"><a href="#" data-filter=".sf-lantern">Wooden Lantern</a><div class="shop-filter-count"></div></li>
+								<li class="mb-1 d-flex justify-content-between align-items-center"><a href="#" data-filter=".sf-metalbasket">Metal Basket</a><div class="shop-filter-count"></div></li>
+								<li class="mb-1 d-flex justify-content-between align-items-center"><a href="#" data-filter=".sf-napkinring">Napkin Ring </a><div class="shop-filter-count"></div></li>
+								<li class="mb-1 d-flex justify-content-between align-items-center"><a href="#" data-filter=".sf-napkinholder">Napkin Holder</a><div class="shop-filter-count"></div></li>
+								<li class="mb-1 d-flex justify-content-between align-items-center"><a href="#" data-filter=".sf-witems">Wooden Items</a><div class="shop-filter-count"></div></li>
+								<li class="mb-1 d-flex justify-content-between align-items-center"><a href="#" data-filter=".sf-beermug">Beer Mug</a><div class="shop-filter-count"></div></li>
+								<li class="mb-1 d-flex justify-content-between align-items-center"><a href="#" data-filter=".sf-planter">Planter</a><div class="shop-filter-count"></div></li>
+								<li class="mb-1 d-flex justify-content-between align-items-center"><a href="#" data-filter=".sf-tables">Tables</a><div class="shop-filter-count"></div></li>
+							</ul>
+
+							<hr class="my-5">
+
+						</div>
+
+						<div class="col-md-9">
+							<div id="shop" class="row shop grid-container" data-layout="fitRows">
+								<!-- Content to be shown Dynamically -->
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="popup" class="row container-fluid align-items-center justify-content-center" style="height: 100vh;">
+					<!-- Div 1 (Image) -->
+					<div class="col-6 mx-auto mb-3 ">
+					  <img src="./images/bottle/SSI24122.webp" class="img-fluid " alt="" id="popupimg">
+					</div>
+					<div id="popup-close-btn" onclick="closePopup()">X</div>
+					<!-- Div 2 (Information) -->
+					<div class="col-6 m-0 mx-sm-auto row">
+					  <div class="col-12">
+						<p>Product Id: <span id="popup-id">SSI237408</span></p>
+					  </div>
+					  <div class="col-12">
+						<p>Description:<span id="popup-description"> Bottle</span></p>
+						<p>Material:<span id="popup-material"> Gold</span></p>
+					  </div>
+					  <div class="col-12">
+						<p>Finish:<span id="popup-finish"> Silver</span></p>
+						<p>Size:<span id="popup-size"> 5 x 7 x 8 inch</span></p>
+					  </div>
+					</div>
+				  </div>				  
+
+				<div class="section bg-color dark mb-0 py-0">
+					
+					<div class="ticker-wrap pause-on-hover py-4" style="--cnvs-ticker-duration: 450s; border-top: 1px solid rgba(255,255,255,0.1);">
+						<div class="ticker">
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+							<a href="contact.html" class="ticker-item px-3 text-white text-shadow-none">Shop Now</a>
+							<a href="contact.html" class="ticker-item px-3"><span class="text-white op-01">&#9670;</span></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Back to Top Button -->
+		<button id="back-to-top" class="btn">
+			<i class="bi bi-arrow-up"></i> <!-- Bootstrap 5 icon for an arrow pointing up -->
+		  </button>
+
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark bg-black border-top-0">
+			<div class="container py-4">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row col-mb-50">
+						<div class="col-md-4">
+
+							<div class="widget subscribe-widget">
+								<h3 class="text-transform-none ls-0 border-bottom d-inline-block mb-5">Subscribe to Our Newsletter</h3>
+
+								<p>Get Important News, Amazing Offers &amp; Inside Scoops weekly right to your Inbox.</p>
+								<div class="widget-subscribe-form-result"></div>
+								<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
+									<div class="input-group mx-auto">
+										<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
+										<button class="btn border-start-0" type="submit"><i class="bi-arrow-right h-op-08"></i></button>
+									</div>
+								</form>
+							</div>
+
+						</div>
+
+
+						<div class="col-lg-3 col-6 offset-md-2" id="custom-contact-details-container">
+
+							<div class="widget widget_links">
+
+								<h3 class="text-transform-none ls-0 border-bottom d-inline-block mb-5">Contact Details</h3>
+
+								<ul>
+									<li class="mb-2"><a class="ls-1 text-light" href="mailto:noreply@canvas.com">info@shrishyamimpex.com</a></li>
+									<li class="mb-2"><a class="ls-1 text-light" href="tel:+0011122233">+91 6395585353</a></li>
+								</ul>
+
+							</div>
+
+						</div>
+
+						<div class="col-lg-3 col-6">
+
+							<div class="widget widget_links">
+
+								<h3 class="text-transform-none ls-0 border-bottom d-inline-block mb-5">Quick Links</h3>
+
+								<ul>
+									<li class="mb-2"><a class="ls-1 text-light" target="_blank" href="./about.html">About Us</a></li>
+									<li class="mb-2"><a class="ls-1 text-light" target="_blank" href="./shop.html">Products</a></li>
+									<li><a class="ls-1 text-light" target="_blank" href="./contact.html">Contact Us</a></li>
+								</ul>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights" style="border-top: 1px solid rgba(255,255,255,.2)">
+				<div class="container">
+
+					<div class="row col-mb-30">
+
+						<div class="col-md-12 text-center ">
+							Made with &hearts; by <a target="_blank" href="https://www.linkedin.com/in/udit-gupta-ug0510/" style="color: white;">Udit Gupta</a>
+						</div>
+
+						<!-- <div class="col-md-6 text-center text-md-end">
+							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+						</div> -->
+
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer>
+
+	</div><!-- #wrapper end -->
+
+
+	<!-- JavaScripts
+	============================================= -->
+
+	<script>
+		// JavaScript for the Back to Top button
+		const backToTopButton = document.getElementById("back-to-top");
+	
+		// Show the button when the user scrolls down 20px from the top of the document
+		window.onscroll = function() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			backToTopButton.style.display = "block";
+		  } else {
+			backToTopButton.style.display = "none";
+		  }
+		};
+	
+		// Smooth scroll to the top of the document when the button is clicked
+		backToTopButton.addEventListener("click", function() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+	  </script>
+	<script>
+		async function addProducts() {
+    const box = document.getElementById('shop');
+
+    // Fetching data from JSON 
+    const response = await fetch('products.json');
+    const data = await response.json();
+
+    let htmlContent = '';
+
+    for(let product in data)
+	{
+		// console.log(product);
+		let src = "/images/"+product.toString()+"/";
+		let className = 'sf-'+product.toString();
+		// console.log(className+"\n"+src);
+		for(let item in data[product])
+		{
+			let srcs = src + "SSI"+item.toString()+".webp";
+			htmlContent += `<div class="col-lg-4 col-md-6 mb-4 product ${className}" onclick="showProduct('${product}','${item}')">
+									<div class="grid-inner">
+										<div class="product-image">
+											<img src="${srcs}" alt="...">
+										</div>
+										<div class="product-desc text-center">
+											<div class="product-title"><h3><a href="contact.html" class="color">${data[product][item]['Description']}</a></h3></div>
+										</div>
+									</div>
+								</div>`
+		}
+	}
+
+	box.innerHTML=htmlContent;
+
+}
+window.addEventListener('load', function() {
+            addProducts();
+        });
+
+		function closePopup()
+		{
+			const box = document.getElementById('popup');
+			box.classList.remove('super-active');
+		}
+
+		//function to show product in popup
+		async function showProduct(category , id)
+		{
+			// fetching data 
+			const response = await fetch('products.json');
+			const data = await response.json();
+
+			// console.log(data[product][id]);
+
+			const box = document.getElementById('popup');
+			const imgBox = document.getElementById('popupimg');
+			const desc = document.getElementById('popup-description');
+			const finish = document.getElementById('popup-finish');
+			const material = document.getElementById('popup-material');
+			const size = document.getElementById('popup-size');
+			const popId = document.getElementById('popup-id');
+		
+			imgBox.src = `/images/${category}/SSI${id}.webp`;
+			desc.innerText=data[category][id]['Description'];
+			finish.innerText=data[category][id]['Finish'];
+			material.innerText=data[category][id]['Material'];
+			size.innerText=data[category][id]['Size'];
+			popId.innerText='SSI' + id;
+
+			//making popup visible
+			box.classList.add('super-active');		
+		}
+
+
+
+
+		
+	</script>
+	<script src="js/jquery.js"></script>
+	<script src="js/functions.js"></script>
+
+	<!-- Range Slider Plugin -->
+	<script src="js/components/rangeslider.min.js"></script>
+
+	<script>
+		jQuery(".button-filter").click(function(){
+			jQuery(".homedecor-filter").toggleClass("homedecor-filter-hide");
+			jQuery(this).toggleClass("button-filter-active-hide");
+			SEMICOLON.Modules.gridInit();
+		});
+
+		var priceRangefrom = 0,
+			priceRangeto = 0,
+			$container = jQuery('#shop');
+
+		jQuery(window).on( 'load', function(){
+
+			jQuery(window).resize(function() {
+				$container.isotope('layout');
+			});
+
+		});
+
+		jQuery(document).ready( function($){
+
+			var $priceRange = jQuery(".price-range"),
+				$priceInputFrom = jQuery(".price-range-from"),
+				$priceInputTo = jQuery(".price-range-to"),
+				min = 9.99,
+				max = 139.99,
+				prefix = '$';
+
+			$priceRange.ionRangeSlider({
+				skin: "round",
+				type: "double",
+				min: min,
+				max: max,
+				from: min,
+				to: max,
+				prefix: prefix,
+				hide_min_max: true,
+				hide_from_to: true,
+				onStart: updateInputs,
+				function (data) {
+					priceRangefrom = data.from;
+					priceRangeto = data.to;
+				},
+				onChange: updateInputs,
+				onFinish: function (data) {
+					priceRangefrom = data.from;
+					priceRangeto = data.to;
+
+					$container.isotope({
+						filter: function() {
+
+							if( jQuery(this).find('.product-price').find('ins').length > 0 ) {
+								var price = jQuery(this).find('.product-price ins').text();
+							} else {
+								var price = jQuery(this).find('.product-price').text();
+							}
+
+							priceNum = price.split("$");
+
+							return ( priceRangefrom <= priceNum[1] && priceRangeto >= priceNum[1] );
+						}
+					});
+
+				}
+			});
+
+			function updateInputs (data) {
+				from = data.from;
+				to = data.to;
+
+				$priceInputFrom.text(prefix + from);
+				$priceInputTo.text(prefix + to);
+			}
+
+			jQuery(".dropdown-item span").on( 'click', function(){
+
+				var displayText = jQuery(this).text();
+
+				jQuery("#shop-filter-btn").html(displayText);
+
+				jQuery(this).parents('.dropdown').find('.show').toggleClass('show', false);
+
+			});
+
+		});
+
+		jQuery(window).on( 'pluginIsotopeReady', function(){
+			jQuery('.shop-filter').find('li:not(.custom-filter-reset)').each( function(){
+				var element = jQuery(this),
+					elementFilter = element.children().attr('data-filter'),
+					elementFilterContainer = element.parents('.custom-filter').attr('data-container');
+
+				elementFilterCount = Number( jQuery(elementFilterContainer).find( '.product' ).filter( elementFilter ).length );
+
+				element.find('.shop-filter-count').text(elementFilterCount);
+
+			});
+
+			jQuery('#shop').isotope({
+				getSortData: {
+					name_az: '.product-title',
+					name_za: '.product-title',
+					price_lh: function( itemElem ) {
+						if( jQuery(itemElem).find('.product-price').find('ins').length > 0 ) {
+							var price = jQuery(itemElem).find('.product-price ins').text();
+						} else {
+							var price = jQuery(itemElem).find('.product-price').text();
+						}
+
+						priceNum = price.split("$");
+
+						return parseFloat( priceNum[1] );
+					},
+					price_hl: function( itemElem ) {
+						if( jQuery(itemElem).find('.product-price').find('ins').length > 0 ) {
+							var price = jQuery(itemElem).find('.product-price ins').text();
+						} else {
+							var price = jQuery(itemElem).find('.product-price').text();
+						}
+
+						priceNum = price.split("$");
+
+						return parseFloat( priceNum[1] );
+					}
+				},
+				sortAscending: {
+					name_az: true,
+					name_za: false,
+					price_lh: true,
+					price_hl: false
+				}
+			});
+
+			jQuery('.shop-sorting li').on( 'click', function() {
+				jQuery('.shop-sorting').find('li').removeClass( 'active-filter' );
+				jQuery(this).addClass( 'active-filter' );
+				var sortByValue = jQuery(this).find('a').attr('data-sort-by');
+				jQuery('#shop').isotope({ sortBy: sortByValue });
+				return false;
+			});
+		});
+	</script>
+
+</body>
+</html>
